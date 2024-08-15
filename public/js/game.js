@@ -4,7 +4,6 @@ let initialX = 0,
 
 const is_touch_device = () => {
 	try {
-		//We try to create TouchEvent (it would fail for desktops and throw error)
 		document.createEvent("TouchEvent");
 		return true;
 	} catch (e) {
@@ -12,7 +11,6 @@ const is_touch_device = () => {
 	}
 };
 
-// Drag and Drop Functions
 function dragStart(e) {
 	initialX = is_touch_device() ? e.touches[0].clientX : e.clientX;
 	initialY = is_touch_device() ? e.touches[0].clientY : e.clientY;

@@ -3,6 +3,9 @@ canvas {
 	top: 0;
 	left: 0;
 }
+button{
+position: relative;
+}
 p {
 	margin: 0 0;
 	position: absolute;
