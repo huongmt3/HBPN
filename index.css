@@ -25,3 +25,26 @@ p > a:first-of-type {
 body {
 	overflow: hidden;
 }
+
+/*
+.navigation {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+	
+}
+
+button:hover {
+    background-color: #ff9900;
+} */
