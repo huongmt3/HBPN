@@ -1,0 +1,132 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #f2c12e;
+}
+.wrapper {
+	width: 31.25em;
+	position: absolute;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	left: 50%;
+	top: 1em;
+}
+.container {
+	width: 31.25em;
+	position: relative;
+	margin: 1em auto;
+	-webkit-box-shadow: 0 0 0 0.6em white, 0 1.25em 3.125em rgba(0, 0, 0, 0.3);
+	box-shadow: 0 0 0 0.6em white, 0 1.25em 3.125em rgba(0, 0, 0, 0.3);
+	border-radius: 0.5em;
+	background-color: #ffffff;
+}
+
+.dog {
+	width: 95%;
+	height: 21.875em;
+	position: relative;
+	margin: 1em auto;
+	display: -ms-grid;
+	display: grid;
+	place-items: center;
+	background-color: #ffedb8;
+	overflow: hidden;
+}
+
+.dog img {
+	position: relative;
+	height: 18.75em;
+	bottom: -1.87em;
+}
+.draggables {
+	padding: 1em 0;
+	width: 31.25em;
+	position: relative;
+	background-color: #ffffff;
+}
+
+.draggables div {
+	position: relative;
+}
+
+.hide {
+	display: none;
+}
+
+[draggable] {
+	cursor: move;
+}
+img {
+	position: absolute;
+}
+.eyes {
+	height: 3.75em;
+}
+.eye {
+	width: 6em;
+}
+.mouth {
+	width: 4em;
+}
+.glass {
+	width: 8em;
+}
+.hat {
+	width: 6em;
+}
+.mouths {
+	height: 3.12em;
+}
+.glasses {
+	top: 1em;
+	height: 5em;
+}
+.hats {
+	height: 7.5em;
+}
+
+#eye-01,
+#mouth-01 {
+	left: 0.93em;
+}
+#hat-1 {
+	left: 5em;
+}
+#glass-01 {
+	left: 4.37em;
+}
+#eye-02,
+#mouth-02 {
+	left: 8.43em;
+}
+#glass-02 {
+	left: 18.75em;
+}
+#hat-02 {
+	left: 12.5em;
+}
+#eye-03,
+#mouth-03 {
+	left: 15.93em;
+}
+#hat-03 {
+	left: 22.5em;
+}
+#eye-04,
+#mouth-04 {
+	left: 23.43em;
+}
+.fab {
+	color: #ff0000;
+}
+@media screen and (max-width: 500px) {
+	.wrapper {
+		font-size: 0.6em;
+	}
+}
