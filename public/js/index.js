@@ -404,6 +404,9 @@ window.addEventListener('resize', function () {
 
 
 window.onload = function () {
-	var youtubeUrl = 'https://www.youtube.com/watch?v=Wu8NeFXaoOc';
-	window.open(youtubeUrl, '_blank');
+	//var youtubeUrl = 'https://www.youtube.com/watch?v=Wu8NeFXaoOc';
+	var mp3Url = 'https://bug-free-doodle-6qqggrx4j43pgr-3000.app.github.dev/music/HPBD.mp3';
+
+	//window.open(youtubeUrl, '_blank');
+	window.open(mp3Url, '_blank');
 };

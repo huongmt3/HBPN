@@ -24,6 +24,10 @@ app.get('/heart', (req, res) => {
     res.sendFile(path.join(__dirname, 'public', 'heart.html'));
   });
 
+  app.get('/music', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'HPBD.mp3'));
+  });
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
